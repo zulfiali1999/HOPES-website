@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+    font-size: 62.50%;
+    overflow-x: hidden;
+}
+
+#brand {
+    width: 100%;
+}
+
+.brand-two {
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #EEEEEE;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.logo img {
+    margin: -5rem -3rem;
+}
+
+.logo h1 {
+    font-size: 3rem;
+    color: rgb(255, 0, 0);
+
+}
+
+.logo p {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: rgb(88, 88, 88);
+}
+
+.tag-line {
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+
+/* HOME BAR SECTION */
+
+.wall-paper {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 1px;
+}
+
+.Home-bar ul {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+}
+
+.Home-bar ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: rgb(88, 88, 88);
+    width: auto;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
+}
+
+.Home-bar li :hover {
+    background-color: rgba(128, 128, 128, 0.185);
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+
+.Home-bar ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 25px;
+    color: rgb(46, 45, 45);
+    font-weight: 500;
+
+}
+
+.Nav-section {
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Nav-Down {
+    margin: auto;
+    padding: 3rem;
+}
+
+.Nav-Head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Nav-Head h1 {
+    font-size: 2rem;
+    color: rgb(3, 3, 3);
+}
+
+.Nav-Head h2 a {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+
+.Nav-Head .fa {
+    color: white;
+    background-color: rgb(44, 44, 202);
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 5rem;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.Nav-Head h1 .fa:hover {
+    transform: rotate(360deg);
+    background: none;
+    color: black;
+}
+
+/* Container Section */
+
+.main {
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
+}
+
+.container a img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    background-color: rgb(255, 255, 255);
+    border: 1 px solid black;
+}
+
+.container a img:hover {
+    padding: 5px;
+}
+
+.therapy {
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
+}
+
+.container-two a img {
+    width: 100%;
+    height: auto;
+    /* object-fit: contain; */
+    background-color: rgb(255, 255, 255);
+    border: 1 px solid black;
+}
+
+.container-two a img:hover {
+    padding: 5px;
+}
+
+.doctor-heading {
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 33px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-image .photo {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.doctor-image h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.doctor-head {
+    font-size: 1.3rem;
+    color: rgb(3, 3, 3);
+    margin: auto;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.doctor-head p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* FOOTER SECTION */
+
+#footer {
+    margin-top: 100px;
+    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+}
+
+.footer-head ul {
+    width: 100%;
+    height: auto;
+}
+
+.footer-head ul li {
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+
+.footer-head p {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.information h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1010px) {
+    .logo p {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        color: rgb(88, 88, 88);
+    }
+
+    .Home-bar ul li a {
+        text-decoration: none;
+        font-size: 10px;
+        padding: 25px;
+        color: rgb(46, 45, 45);
+        font-weight: 500;
+
+    }
+}
+
+.Home-bar .fas {
+    display: none;
+}
+
+@media(max-width: 920px) {
+
+    /* Nav-Head */
+    .Nav-section {
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Nav-Down {
+        margin: auto;
+        padding: 3rem;
+    }
+
+    .Nav-Head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Nav-Head .fa {
+        color: white;
+        background-color: rgb(44, 44, 202);
+        border-radius: 50%;
+        padding: 20px;
+        font-size: 2rem;
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    /* Brand */
+
+    #brand {
+        width: 100%;
+    }
+
+    .brand-two {
+        box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+        border-top: 4px solid #EEEEEE;
+        border-bottom: 1px solid #e6e6e6;
+        background-color: #FFFFFF;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo img {
+        margin: -5rem -3rem;
+    }
+
+    .logo h1 {
+        font-size: 2.5rem;
+        color: rgb(255, 0, 0);
+
+    }
+
+    .logo p {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.7rem;
+        color: rgb(88, 88, 88);
+    }
+
+    .tag-line {
+        /* background-color: aqua; */
+        margin-left: auto;
+        margin-top: 50px;
+    }
+
+    .Home-bar .fas {
+        display: flex;
+        font-size: 2rem;
+        color: rgb(7, 7, 7);
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+
+    .Home-bar ul {
+        background-color: rgba(0, 217, 255, 0.514);
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 10;
+        right: -30;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+
+    .Home-bar ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border-bottom: 1px solid rgb(255, 254, 254);
+    }
+
+    .Home-bar ul .fas {
+        position: absolute;
+        top: 2.5rem;
+        left: 2.5rem;
+        cursor: pointer;
+    }
+}
+
+/* DOCTOR */
+@media(max-width: 710px) {
+    .doctor-heading {
+        width: 70%;
+        margin: auto;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 33px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid #e6e6e6;
+        background-color: #FFFFFF;
+        box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
+    }
+
+    .doctor-image .photo {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid #e6e6e6;
+        background-color: #FFFFFF;
+        box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
+        width: 50%;
+        height: auto;
+        margin: auto;
+        border-radius: 5px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .doctor-image h1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        font-size: 1.5rem;
+        padding: 1rem;
+
+    }
+
+    .doctor-head h1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .doctor-head {
+        font-size: 1.3rem;
+        color: rgb(3, 3, 3);
+        margin: auto;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    .doctor-head p {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
