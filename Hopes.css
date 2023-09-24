@@ -295,19 +295,22 @@ html {
 } */
 
 .information {
-    display: flex;
-    width: 100%;
-    height: auto;
-    margin: 20px;
+    display: block;
+    /* width: 100%;
+    height: auto; */
+    /* margin: 20px; */
+    margin: auto;
+    /* background-color: black; */
 }
 
 .information h1 {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .information ul li {
     font-size: 1.1rem;
-    
+
 }
 
 /* NOTE: ABOUT US PAGE CSS
@@ -355,6 +358,10 @@ html {
 .contact p {
     padding: 10px;
     color: black;
+}
+
+.contact ul {
+    margin: 30px;
 }
 
 .form {
@@ -538,8 +545,13 @@ html {
 }
 
 @media(max-width: 710px) {
-    /* Container Section */
 
+    /* contact */
+    .contact ul li {
+        font-size: 10px;
+    }
+
+    /* Container Section */
     .main {
         width: 90%;
         margin: auto;
