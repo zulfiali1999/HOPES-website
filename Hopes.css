@@ -102,7 +102,7 @@ html {
 
 .Home-bar ul li a {
     text-decoration: none;
-    font-size: 15px;
+    /* font-size: 15px; */
     padding: 25px;
     color: rgb(46, 45, 45);
     font-weight: 500;
@@ -273,7 +273,7 @@ html {
     flex-direction: row;
     align-items: center;
     padding: 10px;
-    margin: 15px;
+    /* margin: 15px; */
     height: auto;
 }
 
@@ -284,8 +284,6 @@ html {
 
 .footer-head ul li {
     padding: 10px;
-    font-size: 1.5rem;
-
 }
 
 /* .footer-head p {
@@ -300,11 +298,16 @@ html {
     display: flex;
     width: 100%;
     height: auto;
+    margin: 20px;
 }
 
 .information h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
+}
+.information ul li {
+    font-size: 1.1rem;
+    
 }
 
 /* NOTE: ABOUT US PAGE CSS
@@ -340,17 +343,20 @@ html {
 
 /* NOTE: CONTACT PAGE CSS 
 ////////////////////////// */
-.contact{
+.contact {
     background-color: gray;
 }
-.contact h1{
+
+.contact h1 {
     padding: 10px;
     color: white;
 }
-.contact p{
+
+.contact p {
     padding: 10px;
     color: black;
 }
+
 .form {
     /* background-color: aquamarine; */
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -361,28 +367,29 @@ html {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
+    /* width: 50%; */
+    background-color: #e6e6e6;
 }
 
 .form label {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 2rem;
+    /* font-weight: bold; */
 }
 
 .form input {
-    width: 30%;
-    height: 40px;
+    width: 100%;
+    height: 50px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #e6e6e6;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 254, 254, 0.788);
     box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
 }
 
 .form textarea {
-    width: 30%;
-    border-radius: 10px;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #e6e6e6;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 254, 254, 0.788);
     box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.1), inset 0 -5px 1px -5px rgba(0, 0, 0, 0.1);
 }
 
@@ -493,10 +500,10 @@ html {
     }
 
     .Home-bar ul {
-        background-color: rgba(0, 217, 255, 0.514);
+        background-color: rgba(0, 0, 0, 0.514);
         position: absolute;
         display: block;
-        margin: auto;
+        /* margin: auto; */
         top: 10;
         right: -30;
         width: 100%;
@@ -508,8 +515,18 @@ html {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10px;
+        margin: 5px;
         border-bottom: 1px solid rgb(255, 254, 254);
+    }
+
+    .Home-bar ul li a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* font-size: 15px; */
+        color: rgb(46, 45, 45);
+        font-weight: 500;
     }
 
     .Home-bar ul .fas {
@@ -668,5 +685,34 @@ html {
         text-align: center;
         justify-content: center;
         width: 100%;
+    }
+
+    /* Nav-Head */
+    .Nav-section {
+        width: 100%;
+        margin: auto;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Nav-Down {
+        margin: auto;
+        padding: 3rem;
+    }
+
+    .Nav-Head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Nav-Head .fa {
+        color: white;
+        background-color: rgb(44, 44, 202);
+        border-radius: 50%;
+        padding: 20px;
+        font-size: 2rem;
+        transition: width 2s, height 2s, transform 2s;
     }
 }
